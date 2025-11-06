@@ -24,8 +24,8 @@ let package = Package(
         .binaryTarget(
             name: "LotteOnOfwModule",
             url:
-                "https://github.com/adison-ads/adison-ofw-module-lotteon-ios/releases/download/0.9.0/LotteOnOfwModule.zip",
-            checksum: "671d6f36b53e80afa2762f1414249e6b3d9eb426746179b574581796607e7af0"
+                "https://github.com/adison-ads/adison-ofw-module-lotteon-ios/releases/download/0.9.2/LotteOnOfwModule.zip",
+            checksum: "729a4151fcc77726a4c3d04fbae8ec1db460149d709931acdd80afff542cd0e9"
         ),
         .target(
             name: "LotteOnOfwModuleTarget",
