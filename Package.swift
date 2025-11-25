@@ -16,7 +16,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/adison-ads/adison-offerwall-ios-sdk", exact: "3.16.8")
+        .package(url: "https://github.com/adison-ads/adison-offerwall-ios-sdk", exact: "3.16.10")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -24,8 +24,8 @@ let package = Package(
         .binaryTarget(
             name: "LotteOnOfwModule",
             url:
-                "https://github.com/adison-ads/adison-ofw-module-lotteon-ios/releases/download/0.9.2/LotteOnOfwModule.zip",
-            checksum: "729a4151fcc77726a4c3d04fbae8ec1db460149d709931acdd80afff542cd0e9"
+                "https://github.com/adison-ads/adison-ofw-module-lotteon-ios/releases/download/0.9.4/LotteOnOfwModule.zip",
+            checksum: "79f15843fe948d57d68e2e82b43638e27b8eb646fa4dc0b8d93a39a2b365b46b"
         ),
         .target(
             name: "LotteOnOfwModuleTarget",
